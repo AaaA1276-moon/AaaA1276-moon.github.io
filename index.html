@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园猫咪小馆</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft Yahei", sans-serif;
+        }
+        body {
+            background-color: #fff8f5;
+            color: #444;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #d48b79;
+            margin-bottom: 30px;
+        }
+        .cat-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            overflow: hidden;
+            margin-bottom: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            transition: transform 0.3s ease;
+        }
+        .cat-card:hover{
+            transform: translateY(-6px);
+        }
+        .cat-img-box {
+            width: 45%;
+        }
+        .cat-img-box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .cat-text {
+            width: 55%;
+            padding: 24px;
+        }
+        .cat-text h2 {
+            color: #c27460;
+            margin-bottom:12px;
+        }
+        .cat-text p {
+            font-size:16px;
+            margin-bottom:10px;
+        }
+        @media (max-width:650px){
+            .cat-img-box,.cat-text{
+                width:100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✨ 校园猫咪小馆 ✨</h1>
+
+        <!-- 猫咪卡片1：折耳 -->
+        <div class="cat-card">
+            <div class="cat-img-box">
+                <!-- ==========把这里替换成折耳的图片直链========== -->
+                <img src="https://s41.ax1x.com/2026/10/21/pnBFuon.jpg" alt="pnBFuon.jpg" border="0" />" alt="折耳的照片">
+            </div>
+            <div class="cat-text">
+                <h2>折耳</h2>
+                <p>位置：北区</p>
+                <p>品种：橘白田园折耳猫</p>
+                <p>性格：安静沉稳，警惕但温顺，喜欢待在草丛边观察路过的人。</p>
+                <p>小介绍：这只橘白小猫耳朵弯折，常出没在北区的草丛旁，喜欢蹲坐在石板上发呆。一身暖橘色毛发配上白色胸口，绿眼睛看起来清冷又可爱。</p>
+            </div>
+        </div>
+
+        <!-- 猫咪卡片2：三点水 -->
+        <div class="cat-card">
+            <div class="cat-img-box">
+                <!-- ==========把这里替换成三点水的图片直链========== -->
+                <img src="https://s41.ax1x.com/2026/10/21/pnBFFRf.jpg" alt="pnBFFRf.jpg" border="0" />" alt="三点水的照片">
+            </div>
+            <div class="cat-text">
+                <h2>三点水</h2>
+                <p>位置：北区</p>
+                <p>品种：白橘田园猫</p>
+                <p>性格：元气十足，爱打哈欠，自带搞笑气质。</p>
+                <p>小介绍：名字源于身上三处浅橘色斑纹，和折耳一样生活在北区。经常张大嘴巴打哈欠，表情魔性又有趣，是校园里的快乐显眼包。</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
